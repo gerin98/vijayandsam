@@ -6,7 +6,7 @@
   <title>Vijay &amp; Samyuktha — Wedding</title>
   <meta name="description" content="Join us to celebrate the wedding of Vijay Gopal and Samyuktha Gopinath on July 11–12, 2026 in Chennai, India." />
 
-  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,7 +16,9 @@
 </head>
 <body>
   <header class="nav" id="top">
-    <a class="nav__brand" href="#top">Vijay &amp; Samyuktha</a>
+    <a class="nav__brand" href="#top" aria-label="Vijay & Samyuktha — home">
+      <img class="nav__logo" src="logo.svg" width="150" height="100" alt="Vijay & Samyuktha monogram" />
+    </a>
 
     <button class="nav__toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-menu">
       <span></span><span></span><span></span>

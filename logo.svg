@@ -1,7 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Vijay &amp; Samyuktha monogram">
-  <rect width="512" height="512" rx="96" fill="#fbf8f3" />
-  <svg x="97" y="97" width="317" height="317" viewBox="0 0 3072 2048" preserveAspectRatio="xMidYMid meet">
-    <g transform="translate(0.000000,2048.000000) scale(0.100000,-0.100000)"
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3072 2048" role="img" aria-label="Vijay &amp; Samyuktha monogram">
+  <g transform="translate(0.000000,2048.000000) scale(0.100000,-0.100000)"
 fill="#9c7a54" stroke="none">
 <path d="M24290 20183 c-51 -27 -73 -68 -104 -194 -159 -643 -424 -1007 -808
 -1109 -86 -22 -302 -28 -380 -10 -323 74 -501 141 -863 323 -962 482 -1557
@@ -82,5 +80,4 @@ fill="#9c7a54" stroke="none">
 316 210 440 176 369 330 691 446 931 60 124 109 229 109 231 0 3 44 97 99 209
 54 112 138 287 186 389 225 476 222 470 253 470 7 0 73 -32 145 -71z"/>
 </g>
-  </svg>
 </svg>

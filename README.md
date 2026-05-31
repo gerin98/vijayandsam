@@ -1,6 +1,6 @@
 # Wedding Site
 
-A simple, static single-page wedding website for Vijay & Samyuktha. No build step, no dependencies — just `index.html`, `styles.css`, `script.js`, and `favicon.svg`.
+A simple, static single-page wedding website for Vijay & Samyuktha. No build step, no dependencies — just `index.html`, `styles.css`, `script.js`, and the monogram assets (`favicon.svg`, `logo.svg`).
 
 Live at: https://gerin98.github.io/vijayandsam/
 
