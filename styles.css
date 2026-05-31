@@ -37,7 +37,7 @@ a { color: var(--accent-dark); }
   align-items: center;
   justify-content: space-between;
   padding: 1rem 1.5rem;
-  background: rgba(251, 248, 243, 0.92);
+  background: rgba(242, 247, 248, 0.92);
   backdrop-filter: blur(8px);
   border-bottom: 1px solid var(--line);
 }
