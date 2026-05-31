@@ -191,10 +191,10 @@ a { color: var(--accent-dark); }
 .section__title::after {
   content: "";
   display: block;
-  width: 190px;
-  height: 32px;
-  background: url("divider.webp") center / contain no-repeat;
-  margin: 0.6rem auto 0;
+  width: 60px;
+  height: 1px;
+  background: var(--accent);
+  margin: 0.9rem auto 0;
 }
 
 .section__lead {
