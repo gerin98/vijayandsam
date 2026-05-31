@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>[BRIDE NAME] &amp; [GROOM NAME] — Wedding</title>
+  <meta name="description" content="Join us to celebrate the wedding of [BRIDE NAME] and [GROOM NAME] on [WEDDING DATE]." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="nav" id="top">
+    <a class="nav__brand" href="#top">[BRIDE] &amp; [GROOM]</a>
+
+    <button class="nav__toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-menu">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="nav__menu" id="nav-menu">
+      <a href="#story">Our Story</a>
+      <a href="#schedule">Schedule</a>
+      <a href="#venue">Venue</a>
+      <a href="#rsvp">RSVP</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="hero">
+      <div class="hero__inner">
+        <p class="hero__eyebrow">We're getting married</p>
+        <h1 class="hero__names">[BRIDE NAME] <span>&amp;</span> [GROOM NAME]</h1>
+        <p class="hero__date">[WEDDING DATE] &middot; [CITY, STATE]</p>
+        <a class="btn btn--primary" href="#rsvp">RSVP</a>
+      </div>
+    </section>
+
+    <!-- OUR STORY -->
+    <section class="section" id="story">
+      <div class="section__inner">
+        <h2 class="section__title">Our Story</h2>
+        <p class="section__lead">
+          [Write a short, warm welcome here. For example: We can't wait to celebrate
+          our special day with the people we love most. Here are all the details you'll
+          need — thank you for being part of our story.]
+        </p>
+      </div>
+    </section>
+
+    <!-- SCHEDULE -->
+    <section class="section section--alt" id="schedule">
+      <div class="section__inner">
+        <h2 class="section__title">Schedule</h2>
+        <ul class="schedule">
+          <li class="schedule__item">
+            <span class="schedule__time">[TIME]</span>
+            <span class="schedule__event">Ceremony</span>
+            <span class="schedule__detail">[Location / short note]</span>
+          </li>
+          <li class="schedule__item">
+            <span class="schedule__time">[TIME]</span>
+            <span class="schedule__event">Cocktail Hour</span>
+            <span class="schedule__detail">[Location / short note]</span>
+          </li>
+          <li class="schedule__item">
+            <span class="schedule__time">[TIME]</span>
+            <span class="schedule__event">Reception</span>
+            <span class="schedule__detail">[Location / short note]</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- VENUE -->
+    <section class="section" id="venue">
+      <div class="section__inner">
+        <h2 class="section__title">Venue</h2>
+        <p class="venue__name">[VENUE NAME]</p>
+        <p class="venue__address">
+          [Street Address]<br />
+          [City, State ZIP]
+        </p>
+        <!-- Replace the href with your venue on Google Maps -->
+        <a class="btn btn--outline" href="https://www.google.com/maps/search/?api=1&query=[VENUE+ADDRESS]" target="_blank" rel="noopener">
+          Open in Google Maps
+        </a>
+      </div>
+    </section>
+
+    <!-- RSVP -->
+    <section class="section section--alt" id="rsvp">
+      <div class="section__inner">
+        <h2 class="section__title">RSVP</h2>
+        <p class="section__lead">
+          Kindly respond by [RSVP DEADLINE]. Click below to let us know if you can make it.
+        </p>
+        <!-- Replace the href with your shared Google Sheet (or Google Form) link -->
+        <a class="btn btn--primary" href="[GOOGLE_SHEET_RSVP_URL]" target="_blank" rel="noopener">
+          RSVP on Google Sheet
+        </a>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+      <div class="section__inner">
+        <h2 class="section__title">Contact</h2>
+        <p class="section__lead">Questions? We're happy to help.</p>
+        <ul class="contact">
+          <li>[CONTACT NAME]</li>
+          <li><a href="mailto:[CONTACT EMAIL]">[CONTACT EMAIL]</a></li>
+          <li><a href="tel:[CONTACT PHONE]">[CONTACT PHONE]</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>[BRIDE NAME] &amp; [GROOM NAME] &middot; [WEDDING DATE]</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
