@@ -94,6 +94,13 @@ a { color: var(--accent-dark); }
   background: linear-gradient(180deg, var(--bg-alt), var(--bg));
 }
 
+.hero__logo {
+  display: block;
+  width: 92px;
+  height: auto;
+  margin: 0 auto 1.75rem;
+}
+
 .hero__eyebrow {
   text-transform: uppercase;
   letter-spacing: 0.32em;
