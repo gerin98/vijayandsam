@@ -293,6 +293,77 @@ a { color: var(--accent-dark); }
   font-size: 1.02rem;
 }
 
+/* ---------- The Couple ---------- */
+.couple {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+  text-align: left;
+}
+
+.couple__card {
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 1.9rem 1.75rem 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.couple__name {
+  font-family: var(--serif);
+  font-weight: 600;
+  font-size: 1.9rem;
+  color: var(--text);
+  text-align: center;
+  margin: 0 0 1.2rem;
+}
+
+.couple__edu {
+  list-style: none;
+  margin: 0 0 1.5rem;
+  padding: 0 0 1.4rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.couple__edu li {
+  position: relative;
+  padding-left: 1.1rem;
+  margin-bottom: 0.7rem;
+  color: var(--muted);
+  line-height: 1.5;
+}
+
+.couple__edu li:last-child { margin-bottom: 0; }
+
+.couple__edu li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.55em;
+  width: 5px;
+  height: 5px;
+  background: var(--accent);
+  border-radius: 50%;
+}
+
+.couple__rel {
+  text-align: center;
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 1.2rem;
+  color: var(--peacock);
+  margin: auto 0 0.4rem;
+}
+
+.couple__parents {
+  text-align: center;
+  margin: 0;
+  color: var(--text);
+  line-height: 1.6;
+}
+
 /* ---------- Venue ---------- */
 .venue__name {
   font-family: var(--serif);
@@ -344,6 +415,7 @@ a { color: var(--accent-dark); }
 /* ---------- Responsive ---------- */
 @media (max-width: 720px) {
   .attire { grid-template-columns: 1fr; max-width: 440px; margin-inline: auto; }
+  .couple { grid-template-columns: 1fr; max-width: 440px; margin-inline: auto; }
 }
 
 @media (max-width: 640px) {
