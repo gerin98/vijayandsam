@@ -294,7 +294,7 @@ a { color: var(--accent-dark); }
 }
 
 .venue__map {
-  max-width: 640px;
+  max-width: 820px;
   margin: 0 auto 2rem;
   aspect-ratio: 16 / 9;
   border-radius: 14px;
